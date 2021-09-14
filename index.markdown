@@ -4,3 +4,8 @@
 
 layout: home
 ---
+![Rilakkuma, on a PC](/assets/images/    #the title later)
+
+<img src="images/rilakkumalearn.png" class="center">
+
+### Time to Learn :)

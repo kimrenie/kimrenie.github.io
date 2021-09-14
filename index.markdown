@@ -4,9 +4,16 @@
 
 layout: home
 ---
-<head><title>CIT Senior Design Blog</title>
-   
+<head>
+    <title>CIT Senior Design Blog</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: grey;
+        }
+    </style>
+</head>
 <body>
+    <h1>Time to Learn :)</h1>
     <img src="images/rilakkumalearn.png" class="center">
-    <center><h1>Time to Learn :)</h1> </center>
 </body>

@@ -1,21 +1,27 @@
 ---
 layout: page
-title: 
+title:
 permalink: /
 ---
-<html>
-<header>
-<div><center>
-   _     _      _     _      _     _      _     _      _     _      _     _      _     _      _     _   
-  (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)  
-   / ._. \      / ._. \      / ._. \      / ._. \      / ._. \      / ._. \      / ._. \      / ._. \   
- __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__ 
-(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)
-   || K ||      || I ||      || M ||      || R ||      || E ||      || N ||      || I ||      || E ||   
- _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._ 
-(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-`\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)
- `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-' 
- </center></div>
- <img src="images/rilakkumalearn.png" class="center">
- </header>
- </html>
+ <html>
+    <head>
+        <title>Kimberly Rebamonte</title>
+        <style>
+            h1 {
+              color: #555555;
+              text-align: center;
+              font-family: "Comic Sans MS", "Comic Sans", cursive;
+            }
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>time to Learnd :)</h1>
+        <img src="images/rilakkumalearn.jpg" class="center">
+    </body>
+</html>

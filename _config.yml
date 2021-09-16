@@ -21,7 +21,7 @@
 title: CIT Senior Design Blog
 email: kimberly.rebamonte.227@my.csun.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Keep your feet on the ground <br \>
+  Keep your feet on the ground
   When your head's in the clouds
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

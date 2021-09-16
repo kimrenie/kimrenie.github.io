@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="style.css">
+
+}body {
+    background-color: #eeeeee;
+    background-image: url(images/ghibli_pinkflowers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    opacity: 0.95;
+}

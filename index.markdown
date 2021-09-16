@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Blogs
+permalink: /blogs
 ---
 <head>
     <title>CIT Senior Design Blog</title>

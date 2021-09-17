@@ -8,24 +8,12 @@ permalink: /blogs
 ---
 <html>
     <head>
-        <style>
-            body {
-                background-image: url(images/ghibli_pinkflowers.jpg);
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            div {
-                background-color: #f5f5f5;
-                border-radius: 10px;
-                opacity: 0.95;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
   <body>
     <div>
-        <p>time to learns</p>
-        <img src="images/rilakkumalearn.jpg" class="center">
+        <img src="images/rilakkumalearnd.jpg">
+        <p>time to learns >:)</p>
     </div>
   </body>
 </html>

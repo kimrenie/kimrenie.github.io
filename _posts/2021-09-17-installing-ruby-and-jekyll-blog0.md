@@ -24,6 +24,9 @@ Some relevant Ruby terminology would include:
 <br />
 
 # Installing Jekyll
+
+![alt text](/images/jekyll-image.png)
+
 After the installation of Ruby, run the following commands in order to install Jekyll, create a new site, and to double check that Jekyll has been prperly installed. The steps to install jekyll are actually quite simple and are as follows:
 ```
 $ gem update

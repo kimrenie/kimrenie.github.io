@@ -13,7 +13,8 @@ permalink: /blogs
   <body>
     <div>
         <img src="images/rilakkumalearnd.jpg">
-        <p>time to learns >:)</p>
+        <br>
+        <p style="font-size: 20px;">time to learns >:)</p>
     </div>
   </body>
 </html>

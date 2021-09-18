@@ -1,6 +1,6 @@
 body {
     background-color:#677177;
-    background-image: url(images/ghibli_pinkflowers.jpg);
+    background-image: url(/images/ghibli_pinkflowers.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,6 +18,10 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 7px;
+}
+img[alt=jekyllpic] { 
+    float: right; 
+    width: 200px;
 }
 h1, p {
     text-align: center;

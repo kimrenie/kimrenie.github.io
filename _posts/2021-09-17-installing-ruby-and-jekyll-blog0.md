@@ -4,8 +4,13 @@ title:  "0. Installing Ruby and Jekyll"
 date:   2021-09-17 01:00:00 -0700
 categories: jekyll update
 ---
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style2.css">
+    </head>
+</html>
 
-#  Installing Ruby
+#  Installing Ruby :O
 In conjunction to our usage of Github in this class, we are able to utilize GitHub pages as the host of our website through the usage of a static site generator named Jekyll. Because Jekyll is an installable Ruby Gem, first you would need to install Ruby.
 
 Some relevant Ruby terminology would include:
@@ -25,7 +30,7 @@ Some relevant Ruby terminology would include:
 
 # Installing Jekyll
 
-![alt text](/images/jekyll-image.png)
+![jekyllpic](/images/jekyll-image.png)
 
 After the installation of Ruby, run the following commands in order to install Jekyll, create a new site, and to double check that Jekyll has been prperly installed. The steps to install jekyll are actually quite simple and are as follows:
 ```
@@ -42,5 +47,23 @@ In order to view my GitHub Pages site as I was making changes I was able to use 
 $ bundle exec jekyll serve 
 ```
 This command helped to locally (http://localhost:4000/) view the changes I was actively making rather than having to `git push` and publish my edits. This reduces the number of `commits` that are made to the repository and also reduces the need to switch back and forth between your terminal, IDE, and web browser.
-
-<html><head><link rel="stylesheet" href="style.css"></head></html>
+<!--
+<html>
+    <head>
+        <style>
+            body {
+                background-color:#677177;
+                background-image: url(/images/ghibli_pinkflowers.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            div {
+                background-color:#c8d1d6;
+                border-radius: 3px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+</html>
+-->

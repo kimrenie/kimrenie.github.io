@@ -18,3 +18,13 @@ permalink: /blogs
     </div>
   </body>
 </html>
+
+<!-- ![rkumalearn](/images/rilakkumalearnd.png)
+
+## time to learns >:)
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  </html> -->

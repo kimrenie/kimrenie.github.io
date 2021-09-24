@@ -4,7 +4,11 @@ title:  "1. Github Branches"
 date:   2021-09-23 01:00:00 -0700
 categories: senior design
 ---
-<html><head><link rel="stylesheet" type="text/css" href="./style2.css"></head></html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style2.css">
+    </head>
+</html>
 
 #  GITHUB BRANCHES
 
@@ -33,7 +37,7 @@ Below is a list of commands that a developer often uses in order to create, modi
 | $ git branch -a | Displayes the remote branches |
 | $ git branch <-new-branch-name-> | Creates a new branch, without checking out|
 | $ git branch -m <-branch-name-> | Renames the current branch |
-| $ git branch -d <-new-branch-name-> | Deletes your branch (safely*) |
+| $ git branch -d <-branch-name-> | Deletes your branch (safely*) |
 | $ git branch -D < branch-name > | Force delete a branch and its commits |
 
 *Some of this code can be visually seen as follows:* 

@@ -47,3 +47,24 @@ The `$ git checkout` command enables the user to switch between and navigate aro
 > **Note:** In order for the `$ git checkout` command to work, the following entities must be used properly: `files`, `commits`, and `branches`.
 
 After performing a `git checkout`, Git updates the files in the working directory to match the associated version and record the branch's new commits.
+
+<!--
+<html>
+    <head>
+        <style>
+            body {
+                background-color:#677177;
+                background-image: url(/images/ghibli_pinkflowers.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            div {
+                background-color:#c8d1d6;
+                border-radius: 3px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+</html>
+-->

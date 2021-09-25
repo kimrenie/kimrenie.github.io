@@ -1,34 +1,23 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about
 ---
 
-```
-    .-. .-')          _   .-')    _  .-')     ('-.       .-') _           ('-.   
-    \  ( OO )        ( '.( OO )_ ( \( -O )  _(  OO)     ( OO ) )        _(  OO)  
-    ,--. ,--.  ,-.-') ,--.   ,--.),------. (,------.,--./ ,--,' ,-.-') (,------. 
-    |  .'   /  |  |OO)|   `.'   | |   /`. ' |  .---'|   \ |  |\ |  |OO) |  .---' 
-    |      /,  |  |  \|         | |  /  | | |  |    |    \|  | )|  |  \ |  |     
-    |     ' _) |  |(_/|  |'.'|  | |  |_.' |(|  '--. |  .     |/ |  |(_/(|  '--.  
-    |  .   \  ,|  |_.'|  |   |  | |  .  '.' |  .--' |  |\    | ,|  |_.' |  .--'  
-    |  |\   \(_|  |   |  |   |  | |  |\  \  |  `---.|  | \   |(_|  |    |  `---. 
-    `--' '--'  `--'   `--'   `--' `--' '--' `------'`--'  `--'  `--'    `------' 
-```
-
+    _______ _______ _______ _______ _______ _______ _______ _______ 
+    |\     /|\     /|\     /|\     /|\     /|\     /|\     /|\     /|
+    | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ |
+    | |   | | |   | | |   | | |   | | |   | | |   | | |   | | |   | |
+    | |k  | | |i  | | |m  | | |r  | | |e  | | |n  | | |i  | | |e  | |
+    | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ |
+    |/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|
+                                                                    
 
 # Kimberly Rebamonte
 
-Major: Computer Information Technology (CIT)
-<br />
-Minor: Sustainability (SUST)
+Major: Computer Information Technology (CIT) - Minor: Sustainability (SUST)
 
----
-
-<br />
-My name is Kimberly Rebamonte!
-<br />
-I'll add onto this page later on lol.
+My name is Kimberly Rebamonte! I am a senior at California State University, Northridge studying Computer Information Technology. I'll add onto this page later on lol.
 
 ---
 <br />
@@ -45,7 +34,13 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
-
-
-<html><head><link rel="stylesheet" href="style.css"></head></html>
+<html>
+<head>
+<style>
+    pre, code { border: 0px; background-color: transparent; text-align: center; }
+    .highlighter-rouge .highlight { background-color: transparent; }
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+</html>
  

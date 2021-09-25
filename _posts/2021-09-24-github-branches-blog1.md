@@ -4,7 +4,7 @@ title:  "1. Github Branches"
 date:   2021-09-24 01:00:00 -0700
 categories: jekyll update
 ---
-<html><head><link rel="stylesheet" type="text/css" href="./style2.css"></head></html>
+<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head></html>
 
 #  Github Branches
 

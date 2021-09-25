@@ -1,5 +1,5 @@
 body {
-    background-color:#1f282e;
+    background-color:#677177;
     background-image: url(images/ghibli_pinkflowers.jpg);
     background-size: cover;
     background-position: center;
@@ -18,10 +18,4 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 7px;
-}
-h1, p {
-    /*
-    text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans", cursive; 
-    */
 }

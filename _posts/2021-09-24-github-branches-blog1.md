@@ -1,23 +1,23 @@
 ---
 layout: post
 title:  "1. Github Branches"
-date:   2021-09-23 01:00:00 -0700
-categories: senior design
+date:   2021-09-24 01:00:00 -0700
+categories: jekyll update
 ---
 <html><head><link rel="stylesheet" type="text/css" href="./style2.css"></head></html>
 
-#  GITHUB BRANCHES
+#  Github Branches
 
 Git and Github have features that allow the user to control which version of their code is used when publishing your work. This version control is managed through the usage of different `branches`. Repositories are able to host multiple branches in order to save different versions of code such as updates or features that can be deployed in the future. The code in these branches are essentially held in limbo until a `git push` is performed to integrate it with the main code. 
 
 This main version of code is the Git's *default branch* which referred to as the `main branch` or the `master branch`. This branch is not meant to be directly altered because it needs to be stable enough to deploy your projects without issues. Creating additional branches allows edits to be safely added to the main branch and its code. 
 
-# NEW BRANCHES
+# New Branches
 
 A `branch` can be seen as a develper's specific workflow, this allows Git to point to new commits. (A secondary concept to branches would be `forking` and `Git remotes`. I will have to research that later on tbh.) This pointer system does not change the repository's history but rather allows the main branch to keep track of changes. 
 > **Note:** Viewing a branch as a pointer is a fundamental concept when using Git.
 
-Once added as collaborators to a repository, different developers use branches in order to keep all of the project's work/progress accessible and allows all of the collaborators to push to the same place. The image below shows different branches are able to hold upcoming features and updates that are able to be easily pushed and deployed to the main branch.
+Once added as collaborators to a repository, different developers use branches in order to keep all of the project's work/progress accessible and allows all of the collaborators to push to the same place.The image below shows different branches are able to hold upcoming features and updates that are able to be easily pushed and deployed to the main branch.
 
 ![a Github branch workflow](/images/branch-workflow.png)
 
@@ -36,7 +36,7 @@ Below is a list of commands that a developer often uses in order to create, modi
 | $ git branch -d <-new-branch-name-> | Deletes your branch (safely*) |
 | $ git branch -D < branch-name > | Force delete a branch and its commits |
 
-*Some of this code can be visually seen as follows:* 
+Some of this code can be visually seen as follows:
 
 ![terminal view of above commands](/images/branch-checkout.png)
 
@@ -44,8 +44,6 @@ Below is a list of commands that a developer often uses in order to create, modi
 
 The `$ git checkout` command enables the user to switch between and navigate around branches that were created with `$ git branch`. In other words, using this command allows the user to switch between different versions of the code thats available on their local system's repository.
 
-> In order for the `$ git checkout` command to work, the following entities must be used properly: `files`, `commits`, and `branches`.
+> **Note:** In order for the `$ git checkout` command to work, the following entities must be used properly: `files`, `commits`, and `branches`.
 
 After performing a `git checkout`, Git updates the files in the working directory to match the associated version and record the branch's new commits.
-
-

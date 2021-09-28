@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2. Docker Basics"
-date:   2021-09-23 01:00:00 -0700
+date:   2021-09-28 01:00:00 -0700
 categories: senior design
 ---
 <html><head><link rel="stylesheet" type="text/css" href="./style2.css"></head></html>

@@ -22,3 +22,11 @@ img {
 .post-header, .footer-heading {
     padding-top: 30px
 }
+h1 {
+    font-size: 30px;
+    border-bottom: 1px solid rgb(110, 110, 119);
+    padding-bottom: 7px;
+}
+.post-content h2{
+    font-size: 25px;
+}

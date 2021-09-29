@@ -46,7 +46,7 @@ The advantage of using containers rather than a dedicated VM would be the reduct
     [x] run component
     [x] distribution component 
 
-- With these three components working in conjuntion, a service called the `Docker Engine` (or the Docker Daemon) is able to run on the user's host machine and performs all the actions necessary in order to build, run, and distribute the selected Docker Container. This daemon is able to listen for Docker API request and manages Docker's tools for the client
+- With these three components working in conjuntion, a service called the `Docker Engine` (or the Docker Daemon) is able to run on the user's host machine and performs all the actions necessary in order to build, run, and distribute the selected Docker Container. This daemon is able to listen for Docker API request and manages Docker's tools for the client.
 
 <br />
 
@@ -64,7 +64,7 @@ The docker build command is able to create an image from a Dockerfile alongside 
 $ docker build -f /path/to/your/Dockerfile
 ```
 Every Dockerfile line begins with a `FROM` isntruction and follows an "instruction argument" format, which is then read by Docker in sequential order.
-The following instructions are supported by Docker and are to be followed with their corresponding environemnt variables.
+The following instructions are supported by Docker and are to be followed with their corresponding environment variables.
 ```
 ADD
 COPY

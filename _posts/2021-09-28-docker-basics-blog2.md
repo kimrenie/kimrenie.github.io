@@ -10,9 +10,9 @@ categories: senior design
 
 ![docker logo](/images/docker-logo.jpg)
 
-`Docker` is an open-source, PaaS (Platform as a Service) used for containerization through the utilization of OS-level virtualization directly in the Linux kernal. Similar to a Virtual Machine, Docker is able to run applications in a `sandbox environment` in order for developers to easily test and play with their applications in a consistent and secure environment. 
+`Docker` is an open-source, PaaS (Platform as a Service) used for containerization through the utilization of OS-level virtualization directly in the Linux kernel. Similar to a Virtual Machine, Docker is able to run applications in a `sandbox environment` in order for developers to easily test and play with their applications in a consistent and secure environment. 
 
-The advantage of using containers rather than a dedicated VM would be the reduction of used kernal space compared to the higher CPU usage that a VM uses when utilizing their own individual OS. This advantage can be visualized when viewing a Virtual Machine as a standalone environment that host "virtual hardware" which includes setting up its own BIOS, disk storage, CPU, RAM, etc. In comparison, a container uses the host's hardware and Operating System through the usage of the Docker Engine.
+The advantage of using containers rather than a dedicated VM would be the reduction of used kernel space compared to the higher CPU usage that a VM uses when utilizing their own individual OS. This advantage can be visualized when viewing a Virtual Machine as a standalone environment that host "virtual hardware" which includes setting up its own BIOS, disk storage, CPU, RAM, etc. In comparison, a container uses the host's hardware and Operating System through the usage of the Docker Engine.
 
 <br />
 
@@ -20,15 +20,15 @@ The advantage of using containers rather than a dedicated VM would be the reduct
 
 ![docker 3 components](/images/docker-3-components.png)
 
-> **Note:** The three componets that are needed to run Docker's System are a `build component`, the `run component,` and the `distribution component`. These components correspond to the three vital Docker tools: images, containers, and the engine. 
+> **Note:** The three components that are needed to run Docker's System are a `build component`, the `run component,` and the `distribution component`. These components correspond to the three vital Docker tools: images, containers, and the engine. 
 
 ## Docker Images
     [x] build component
     [ ] run component
     [ ] distribution component
 
-- A Docker Image is a collection of read only files that contain tools, such as libraries and dependancies, that are necessary to run and configure the corresponding container. 
-- An image is created through the usage of files that are known as `layers` that are dependant on the layer it is built on top of. These layers are "laid" on top of each other after each subsequent image-to-container creation and stores the history and changes to the container over time. 
+- A Docker Image is a collection of read only files that contain tools, such as libraries and dependencies, that are necessary to run and configure the corresponding container. 
+- An image is created through the usage of files that are known as `layers` that are dependent on the layer it is built on top of. These layers are "laid" on top of each other after each subsequent image-to-container creation and stores the history and changes to the container over time. 
 
 ![docker image layers](/images/docker-image-layers.jpg)
 
@@ -39,14 +39,14 @@ The advantage of using containers rather than a dedicated VM would be the reduct
     [x] run component
     [ ] distribution component 
 
-- Containers are real and live enviroments that are interactable with users and adminstrators. These environments can host applications that are abstracted from After creation, our Docker Containers (environments) are able to start up, stop, run, be moved, and be deleted.
+- Containers are real and live environments that are interactable with users and administrators. These environments can host applications that are abstracted from After creation, our Docker Containers (environments) are able to start up, stop, run, be moved, and be deleted.
 
 ## Docker Engine
     [x] build component
     [x] run component
     [x] distribution component 
 
-- With these three components working in conjuntion, a service called the `Docker Engine` (or the Docker Daemon) is able to run on the user's host machine and performs all the actions necessary in order to build, run, and distribute the selected Docker Container. This daemon is able to listen for Docker API request and manages Docker's tools for the client.
+- With these three components working in conjunction, a service called the `Docker Engine` (or the Docker Daemon) is able to run on the user's host machine and performs all the actions necessary in order to build, run, and distribute the selected Docker Container. This daemon is able to listen for Docker API request and manages Docker's tools for the client.
 
 <br />
 
@@ -63,7 +63,7 @@ The docker build command is able to create an image from a Dockerfile alongside 
 ```
 $ docker build -f /path/to/your/Dockerfile
 ```
-Every Dockerfile line begins with a `FROM` isntruction and follows an "instruction argument" format, which is then read by Docker in sequential order.
+Every Dockerfile line begins with a `FROM` instruction and follows an "instruction argument" format, which is then read by Docker in sequential order.
 The following instructions are supported by Docker and are to be followed with their corresponding environment variables.
 ```
 ADD

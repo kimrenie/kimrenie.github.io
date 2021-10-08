@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "4. SSH Config File"
-date:   2021-10-08 01:00:00 -0700
+date:   2021-10-08 02:00:00 -0700
 categories: senior design
 ---
 <html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head></html>

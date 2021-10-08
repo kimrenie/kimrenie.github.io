@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "3. SSH Config File"
+title:  "4. SSH Config File"
 date:   2021-10-06 01:00:00 -0700
 categories: senior design
 ---
@@ -23,6 +23,22 @@ aka scp the public key into .ssh/authorized_keys
 - the
 - commands
 
+
+# Files
+```
+~/.ssh/config
+/etc/ssh/ssh_config
+```
+
+# Keywords
+```
+Host
+EnableSSHKeysign
+HostKeyAlias
+HostName
+User
+```
+
 # Permissions
 
 ![wrong key permissions](/images/wrong-key-permissions)
@@ -30,3 +46,13 @@ aka scp the public key into .ssh/authorized_keys
 images wrong-key-permissions
 
 chmod 600 to the file
+
+# optional title: SSH Login (Automated) 
+# maybe : Remote Machine Auto Login
+^^^^ maybe this is the blog for next week
+
+
+## References
+https://linuxhint.com/ssh-config-file/
+lol https://www.reddit.com/r/linuxquestions/comments/ng8mq0/when_using_ssh_keys_can_you_use_the_same_keys_on/gypm2d6/
+lol 2 https://www.linuxquestions.org/questions/linux-security-4/using-a-public-ssh-key-on-more-than-one-user-942094/

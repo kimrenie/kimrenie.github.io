@@ -63,12 +63,12 @@ After following all of these steps you should be able to have an automated login
 
 # References
 
-SSH Keys https://www.reddit.com/r/linuxquestions/comments/ng8mq0/when_using_ssh_keys_can_you_use_the_same_keys_on/gypm2d6/
+SSH Keys [https://www.reddit.com/r/linuxquestions/comments/ng8mq0/when_using_ssh_keys_can_you_use_the_same_keys_on/gypm2d6/](https://www.reddit.com/r/linuxquestions/comments/ng8mq0/when_using_ssh_keys_can_you_use_the_same_keys_on/gypm2d6/)
 
-SSH Keys 2 https://www.linuxquestions.org/questions/linux-security-4/using-a-public-ssh-key-on-more-than-one-user-942094/
+SSH Keys 2 [https://www.linuxquestions.org/questions/linux-security-4/using-a-public-ssh-key-on-more-than-one-user-942094/](https://www.linuxquestions.org/questions/linux-security-4/using-a-public-ssh-key-on-more-than-one-user-942094/)
 
-General Issues https://askubuntu.com/questions/871751/cant-ssh-even-with-public-key-added-to-authorized-keys
+General Issues [https://askubuntu.com/questions/871751/cant-ssh-even-with-public-key-added-to-authorized-keys](https://askubuntu.com/questions/871751/cant-ssh-even-with-public-key-added-to-authorized-keys)
 
-Config file basics https://linuxhint.com/ssh-config-file/
+Config file basics [https://linuxhint.com/ssh-config-file/](https://linuxhint.com/ssh-config-file/)
 
-Config file format https://www.ssh.com/academy/ssh/config
+Config file format [https://www.ssh.com/academy/ssh/config](https://www.ssh.com/academy/ssh/config)

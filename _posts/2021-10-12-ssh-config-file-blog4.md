@@ -12,7 +12,7 @@ After generating a key pair with a service such as `ssh-keygen` a private key an
 ```
 ssh-keygen -t rsa -b 4096 user@homemachine
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/user/.ssh/id_rsa):  /home/user/.ssh/something-rsa
+Enter file in which to save the key (/home/user/.ssh/id_rsa):  /home/user/.ssh/id-rsa
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
 Your identification has been saved in /home/user/.ssh/something-rsa

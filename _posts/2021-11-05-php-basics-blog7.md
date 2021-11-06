@@ -4,7 +4,7 @@ title:  "7. PHP Basics"
 date:   2021-11-05 01:00:00 -0700
 categories: senior design
 ---
-<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 35%}</style></html>
+<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 50%}</style></html>
 
 # What is PHP
 
@@ -14,17 +14,20 @@ Below is an example of this integration.
 
 ```
 <html> 
- <title>HTML with PHP</title>
+ <title>HTML + PHP</title>
  <body>
- <h1>My Example</h1>
+ <h1>HTML Code in a header1 tag</h1>
+
  <?php
 // Heyo! Your desired PHP code and its functionscan go here!
 ?>
- <b>Here is some more HTML</b>
+
+ <b>HTML in a body tag</b>
+
  <?php
  // they can also go here! Anywhere you want! :)
  ?>
- 
+
  </body>
  </html>
 ```

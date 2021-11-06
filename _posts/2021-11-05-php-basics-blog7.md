@@ -4,7 +4,7 @@ title:  "7. PHP Basics"
 date:   2021-11-05 01:00:00 -0700
 categories: senior design
 ---
-<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 50%}</style></html>
+<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
 
 # What is PHP
 

@@ -4,12 +4,12 @@ title:  "7. PHP Basics"
 date:   2021-11-05 01:00:00 -0700
 categories: senior design
 ---
-<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
+<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style></style></html>
 
 # What is PHP
 
 PHP stands for Personal Home Page in its initial form. However, it is currently known as a Hypertext Preprocessor. PHP is a server-side language that is considered to be a platform that supports backend scripting. It may be easily misunderstood as a front-end language because, even though they are two seperate languages, HTML may be embeded within PHP code in order to improve the formating and ensure that the pages are user-friendly. 
-This may be done by creating a normal HTML document with regular html tags ( `<html></html>` ) and whenever the developer wants to implement PHP functionality, this code can be inserted in the middle of out HTML code (anywhere and at multiple places) with the usage of PHP tags (`<?php php-code-here ?>` )
+This may be done by creating a normal HTML document with regular html tags ( `<html></html>` ) and whenever the developer wants to implement PHP functionality, this code can be inserted in the middle of out HTML code (anywhere and at multiple places) with the usage of PHP tags (`<?php your-php-code-goes-here ?>` )
 
 Below is an example of this integration.
 
@@ -20,7 +20,7 @@ Below is an example of this integration.
  <h1>HTML Code in a header1 tag</h1>
 
  <?php
- // Heyo! Your desired PHP code and its functionscan go here!
+ // Heyo! Your desired PHP code and its functions can go here!
  ?>
 
  <b>HTML in a body tag</b>

@@ -8,7 +8,7 @@ categories: senior design
 
 # What is the .htaccess file?
 
-![apache-ht-access](/images/apache-ht-access.jpeg)
+![apache-ht-access](/images/apache-ht-access.jpg)
 
 An `.htaccess file` is known as a "distributed configuration file" and is used in order to give the user the ability to make configuration modifications depending on current working directory. During user web requests, the Apache Web Server first detects this configuration file and executes the directives found inside of it. Such as other Apache configuration files, the .htaccess file is read from top to bottom
 

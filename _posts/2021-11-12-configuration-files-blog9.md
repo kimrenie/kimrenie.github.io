@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "9. Apache Configuration Files"
-date:   2021-11-12 01:00:00 -0700
+date:   2021-11-18 01:00:00 -0700
 categories: senior design
 ---
-<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img[alt=apache-httpd.jpeg] {width: 70%}</style></html>
+<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img[alt=apache-httpd.jpeg] {width: 50%}</style></html>
 
 # What is the Main Configuration File
 
@@ -35,13 +35,13 @@ Rather than placing directives into indivudual .htaccess files (as mentioned in 
 ```
 
 - The `Directory` directive applies directives only to the directory that is named within its tags. (i.e. `<Directory path-to-directory> ... </Directory>`)
-- The `DirectoryMatch` directive has the same functionality as the Directory directive except is uses expressions in order to find teh appropriate directory/files. (Regex is short for regular expressions and is used to find a particular pattern. A simple example of this is using `([A-Z][a-z]*)` in order to find words that start with with a capital and are followed by lowercase letters.)
-- The `Files` directory applies directives according to the filename listed within its tags( i.e. `<Files "name-of-the-file.txt"> ... </Files>`). These instructions are perfromed in the order they appear in.
+- The `DirectoryMatch` directive has the same functionality as the Directory directive except is uses expressions in order to find the appropriate directory/files. (Regex is short for regular expressions and is used to find a particular pattern. A simple example of this is using `([A-Z][a-z]*)` in order to find words that start with with a capital and are followed by lowercase letters.)
+- The `Files` directory applies directives according to the filename that is listed within its tags (i.e. `<Files "name-of-the-file.txt"> ... </Files>` ). These instructions are perfromed in the order they appear in.
 - The rest of the directives perform similarly.
 
 # .htaccess Files
 
-This was addressed in the previous blog. In short, an .htaccess file is short for a distributed configuration file and it is a secondary configuration file that allows specified management for certain files and webpages. 
+This topic was addressed in a previous blog. In short, an .htaccess file is short for a distributed configuration file and it is a secondary configuration file that allows specified management for certain files and webpages. 
 
 ![apache-ht-access](/images/apache-ht-access.jpg)
 

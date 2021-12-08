@@ -4,9 +4,11 @@ title:  "11. MongoDB Basics"
 date:   2021-11-30 01:00:00 -0700
 categories: senior design
 ---
-<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img[alt=forward-proxy-flow.png] {width: 50%}</style></html>
+<html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
 
 # What is MongoDB?
+
+![mongodb](/images/mongodb.jpg)
 
 MongoDB is a non-relational database program that is developed by MongoDB Inc. and allows for the storage and retreival of data. Non-relational means that this databases does not use SQL (structured query language) but rather it deals with data through the usage of JSON-like documents that allow our data to to be flexible and change over time. 
 
@@ -55,7 +57,8 @@ Some of the relevant operations that can be used when working with the mongo she
 
     > mongo                     # this connects the server to mongo shell
     > help
-    > show dbs                  # this displays all the of the available databases on your server
+    > show dbs                  # this displays all the of the available databases 
+                                # on your server
     > use <db>                  # this switches the database that is currently in use
     > db.newCollection.insertOne( { x: 1 } )    #this inserts new document data
     > exit                      # this exits and returns the user to their server's shell

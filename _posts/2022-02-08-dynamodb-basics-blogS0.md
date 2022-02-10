@@ -6,31 +6,21 @@ categories: senior design
 ---
 <html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
 
-# What is DynamoDB?
+# What is DynamoDB? (48 words)
 
 ![dynamo-db](/images/dynamo-db.png)
 
-Amazon DynamoDB is an AWS service that allows users to create key-value NoSQL databases that are fully managed by AWS. These databases use a serverless framework because they work in conjunction with AWS's resources and only require the client to pay for the services that are actively used.  (48 words)
+Amazon DynamoDB is an AWS service that allows users to create key-value NoSQL databases that are fully managed by AWS. These databases use a serverless framework because they work in conjunction with AWS's resources and only require the client to pay for the services that are actively used.
 
-# Comparisons to MongoDB
+# Comparisons to MongoDB (119 words)
 
-Mongo 
-1. 
-- traditional, server based database
-- security relies on consistent TCP connection to protect the database from the public interent
+| | MongoDB | DynamoDB |
+| ---------- | ---------- | ---------- |
+| Basics | Uses a traditional, server-based database | Uses a service-based database |
+| Security | Data security relies on keeping up a consistent TCP connection in order to protect the database from the public internet | database access is processed through the DynamoDB API rather than HTTPS network connection. This method uses AWS Identity and Access Management (IAM) permissions in order to authorize connection with clients. This process also reduces latency. |
+| Operations model | Mongo requires its software to be installed on each instance that it is used on on. Subsequently, this increases the memory and storage that is needed overall. | Dynamo handles the instance management and the user is only responsible for the ammount of usage that their application actively uses. |
 
-2. operations model
-- mongo requires its software to be installed on each instance that it is used on on , this increases the memory and storage that is needed overall.
-
-Dynamo
-1. 
-- service-based database
-- database access is processed through the DynamoDB API rather than HTTPS network connection
-- isntead uses AWS IAM permissions to authorize connection with clients
-- therefore uses up less latency 
-
-2. operations model
-- dynamo handles the instance management and the user is only responsible for the ammount of usage that their application uses up. 
+##################### 164 WORDS TOTAL SO FAR #################
 
 # Documents? Collections? ??
 

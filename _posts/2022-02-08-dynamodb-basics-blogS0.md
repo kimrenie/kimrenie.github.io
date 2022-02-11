@@ -49,14 +49,14 @@ When you create a table, the following paramaters need to be provided:
 
 MongoDB [https://en.wikipedia.org/wiki/MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 
-Core Components [https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.PrimaryKey]
+Core Components [https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.PrimaryKey](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.PrimaryKey)
 
-Basics [https://nordcloud.com/5-things-to-know-when-starting-to-use-dynamodb-nosql-databases/#:~:text=DynamoDB%2C%20like%20most%20other%20NoSQL,to%20any%20of%20your%20items]
+Basics [https://nordcloud.com/5-things-to-know-when-starting-to-use-dynamodb-nosql-databases/#:~:text=DynamoDB%2C%20like%20most%20other%20NoSQL,to%20any%20of%20your%20items](https://nordcloud.com/5-things-to-know-when-starting-to-use-dynamodb-nosql-databases/#:~:text=DynamoDB%2C%20like%20most%20other%20NoSQL,to%20any%20of%20your%20items)
 
-Mongo vs Dynamo [https://www.dynamodbguide.com/mongo-db-vs-dynamo-db]
+Mongo vs Dynamo [https://www.dynamodbguide.com/mongo-db-vs-dynamo-db](https://www.dynamodbguide.com/mongo-db-vs-dynamo-db)
 
-Concepts [https://www.dynamodbguide.com/key-concepts]
+Concepts [https://www.dynamodbguide.com/key-concepts](https://www.dynamodbguide.com/key-concepts)
 
-Schema [https://www.prisma.io/dataguide/intro/intro-to-schemas]
+Schema [https://www.prisma.io/dataguide/intro/intro-to-schemas](https://www.prisma.io/dataguide/intro/intro-to-schemas)
 
-Primary Keys [https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/]
+Primary Keys [https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)

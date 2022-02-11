@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "S0. DynamoDB Basics"
-date:   2022-10-08 01:00:00 -0700
+date:   2022-02-10 01:00:00 -0700
 categories: senior design
 ---
 <html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
@@ -24,15 +24,13 @@ Amazon DynamoDB is an AWS service that allows users to create key-value NoSQL da
 
 Similar to MongoDB, DynamoDB make use of concepts such as tables, items, and attributes. "Tables" would be used to group together related data, "Items" would refer to the individual data records that can be found inside of a table, and "Attributes" is another piece of data that is stored with an Item.
 
-> A partition is an portion of storage for a table that is automatically created across Availibility Zones within an AWS Region. The management of these partitions is completely by Amazon and DynamoDB, therefore the user does not need to regulate it themselves.  
+> A partition is an portion of storage for a table that is automatically created across Availibility Zones within an AWS Region. The management of this internal storage system is completely done by Amazon and DynamoDB, therefore the user does not need to regulate it themselves.  
 
 ![dynamodb-partitions](/images/dynamodb-partitions.jpeg) 
 
 # Schema and Table Design
 
 The schema of our database serves to direct where our data is located and how to go about accessing/working with our data. As a NoSQL database, DynaoDB is considered to be schema-less because the structure of the tables is less strict than traditional databases and instead uses primary keys and indexes. 
-
-TOTAL 312 WORDS ###############################
 
 ## Primary Keys
 
@@ -43,26 +41,22 @@ When you create a table, the following paramaters need to be provided:
 - `AttributeDefinitions` - data types ...
 - `ProvisionedTheoughout` - RCU and WCUs ...
 
-primary key
-partition key
-the other key
+> The KeySchema defines data elements that follow a table's required Primary Key (which is composed of either one partition key OR a partition key and sort key pairing).
 
-## Indexes
-
-????? maybe dont do this ?? idk
-
-# Prerequisites (Maybe i wont use this) (well see )
-
-In order to properly run DynamoDB on your machine, the following softwares need to be installed:
-
-- Node.js
-' # node -v '
-- an AWS profile
-- serverless framework
+![dynamodb-primarykey](/images/dynamodb-partitionkey.jpeg)
 
 # References
 
 MongoDB [https://en.wikipedia.org/wiki/MongoDB](https://en.wikipedia.org/wiki/MongoDB)
+
+Core Components [https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.PrimaryKey]
+
+Basics [https://nordcloud.com/5-things-to-know-when-starting-to-use-dynamodb-nosql-databases/#:~:text=DynamoDB%2C%20like%20most%20other%20NoSQL,to%20any%20of%20your%20items]
+
 Mongo vs Dynamo [https://www.dynamodbguide.com/mongo-db-vs-dynamo-db]
+
 Concepts [https://www.dynamodbguide.com/key-concepts]
+
 Schema [https://www.prisma.io/dataguide/intro/intro-to-schemas]
+
+Primary Keys [https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/]

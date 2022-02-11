@@ -43,7 +43,7 @@ When you create a table, the following paramaters need to be provided:
 
 > The KeySchema defines data elements that follow a table's required Primary Key (which is composed of either one partition key OR a partition key and sort key pairing).
 
-![dynamodb-primarykey](/images/dynamodb-partitionkey.jpeg)
+![dynamodb-primarykey](/images/dynamodb-primarykey.jpeg)
 
 # References
 

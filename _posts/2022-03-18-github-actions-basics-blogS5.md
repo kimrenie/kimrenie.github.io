@@ -8,7 +8,7 @@ categories: senior design
 
 # What is GitHub Actions?
 
-![github-action](/images/github-action.png)
+![github-actions](/images/github-actions.png)
 
 GitHub Actions is a GitHub-created service that primarily deals with enabling automation services to software development developers and their companies. These automation services provide ease of test, release, and deployment to companies that manage their code within GitHub repositories. This service bridges the gap between the need for multiple third-party services because GitHub Actions is already built into GitHub. 
 

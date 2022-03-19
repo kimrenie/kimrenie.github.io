@@ -8,6 +8,8 @@ categories: senior design
 
 # What is GitHub Actions?
 
+![github-action](/images/github-action.png)
+
 GitHub Actions is a GitHub-created service that primarily deals with enabling automation services to software development developers and their companies. These automation services provide ease of test, release, and deployment to companies that manage their code within GitHub repositories. This service bridges the gap between the need for multiple third-party services because GitHub Actions is already built into GitHub. 
 
 # Workflows
@@ -48,10 +50,10 @@ After a `git commit` and after any developer makes a push to the repository (as 
 6. steps:
 > This line groups together the steps that are performed in our job. This can be viewed as shell script or as the individual lines of code written in a terminal.
 
-7. - uses: *actions/name-of-action*
+7. - uses: actions/name-of-action
 > This line defines the pre-made action to be used
 
-8. - name: *new-step-name*
+8. - name: new-step-name
 > This line defines and names this action.
 
 9. run:

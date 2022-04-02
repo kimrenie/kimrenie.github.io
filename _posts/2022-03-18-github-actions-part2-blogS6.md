@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "S6. GitHub Actions Part 2"
-date:   2022-03-18 01:00:00 -0700
+date:   2022-04-02 01:00:00 -0700
 categories: senior design
 ---
 <html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
@@ -52,6 +52,9 @@ docker/login-action@v1
 
 Once a trigger starts up a workflow, a runner is setup that gives our workflow a server to run the processes on. These runners perform tasks individually and sequentially and thus each workflow that is performed is done so on a newly-provisioned virtual machine to give the new workflow a fresh space to work in. This cloud server can be specifie to run any environment customizations.
 
+# :)
+
+Next week I might contiue this topic, we'll see ;)
 
 ![image](/images/actions.png)
 

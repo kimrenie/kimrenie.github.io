@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Modularization"
+title:  "S7. Modularization"
 date:   2022-04-09 01:00:00 -0700
 categories: senior design
 ---

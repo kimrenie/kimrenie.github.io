@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "S8. Terraform"
-date:   2022-04-16 01:00:00 -0700
+date:   2022-04-15 01:00:00 -0700
 categories: senior design
 ---
 <html><head><link rel="stylesheet" type="text/css" href="/../style2.css"></head><style>img {width: 75%}</style></html>
